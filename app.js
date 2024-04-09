@@ -18,7 +18,7 @@ const initServer = async () => {
     const app = express();
     const server = new ApolloServer({
         schema: graphQlSchema,
-        rootValue: graphQlResolver,
+        rootValue: graphQlResolver
     });
     
   
